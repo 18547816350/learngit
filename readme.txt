@@ -14,3 +14,7 @@ $ pwd
 3.要随时掌握工作区的状态，使用git status命令。
 
 4.如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+
+git log命令显示从最近到最远的提交日志，我们可以看到3次提交，最近的一次是append GPL，上一次是add distributed，最早的一次是wrote a readme file。
+
+如果嫌输出信息太多，看得眼花缭乱的，可以试试加上--pretty=oneline参数：
