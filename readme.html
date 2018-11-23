@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Git</title>
+	</head>
+	<body>
+		<div>
+			<h5>初始化一个Git仓库，使用git init命令。</h5>
+
+			<p>添加文件到Git仓库，分两步：</p>
+
+			<p>使用命令git add <file>，注意，可反复多次使用，添加多个文件；</p>
+			<p>使用命令git commit -m <message>，完成。</p>
+		</div>
+
+		<p>
+			Git is a distributed version control system.<br/>
+			Git is free software.
+		</p>
+
+		<div>
+			<h5>现在，运行git status命令看看结果：</h5>
+
+			<p>$ git status</p>
+			<p>On branch master<br/>
+				&nbsp;Changes not staged for commit:<br/>
+				&nbsp;&nbsp;  (use "git add <file>..." to update what will be committed)<br/>
+				 &nbsp;&nbsp;&nbsp; (use "git checkout -- <file>..." to discard changes in working directory)<br/>
+
+				&nbsp;&nbsp;	modified:   readme.txt<br/>
+
+				no changes added to commit (use "git add" and/or "git commit -a")<br/>
+			</p>
+			<p>git status命令可以让我们时刻掌握仓库当前的状态，上面的命令输出告诉我们，readme.txt被修改过了，但还没有准备提交的修改。</p>
+		</div>
+		
+		<div style="background:url('image/01.jpg') no-repeat top;width:1000px;height:300px;">
+			<h1 style="text-align:center;"> 打发大水</h1>
+		</div>
+	</body>
+</html>
