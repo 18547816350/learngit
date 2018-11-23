@@ -18,3 +18,5 @@ $ pwd
 git log命令显示从最近到最远的提交日志，我们可以看到3次提交，最近的一次是append GPL，上一次是add distributed，最早的一次是wrote a readme file。
 
 如果嫌输出信息太多，看得眼花缭乱的，可以试试加上--pretty=oneline参数：
+
+444
